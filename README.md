@@ -8,8 +8,6 @@ Some tips in Flutter/Dart.
 
 # Table of Contents
 
-- [Flutter Tips](#flutter-tips)
-- [Table of Contents](#table-of-contents)
 - [Svg Picture Color to Filter](#svg-picture-color-to-filter)
 - [Pump Until Find](#pump-until-find)
 
