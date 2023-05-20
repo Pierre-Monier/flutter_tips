@@ -11,6 +11,7 @@ Some tips in Flutter/Dart.
 - [Flutter Tips](#flutter-tips)
 - [Table of Contents](#table-of-contents)
 - [Svg Picture Color to Filter](#svg-picture-color-to-filter)
+- [Pump Until Find](#pump-until-find)
 
 # Svg Picture Color to Filter
 
@@ -19,3 +20,11 @@ With the recent depreciation of the `color` attribute on the `SvgPicture` widget
 [Source Code](source/svg_picture_color_to_filter.dart)
 
 ![](images/svg_picture_color_to_filter.png)
+
+# Pump Until Find
+
+If you want to refresh UI in a test but you don't know how much time the widget will take to render, you can use the following extension on the `WidgetTester` class
+
+[Source Code](source/pump_until_find.dart)
+
+![](images/pump_until_find.png)
